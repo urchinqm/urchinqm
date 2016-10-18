@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>my_blog</title>
+	<style>
+	body, html, div, p, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dt, dd{margin: 0;padding: 0;border: 0;outline: 0;}
+	a{text-decoration: none;}
+	ul, ol{list-style: none;}
+	body{
+		background: #f5f5f5;
+		font-family: Helvetica, Arial, 'Lucida Family',Sans-serif;
+		font-size: 14px;
+	}
+	#header{
+		background-color: #e5e5e5;
+		height: 130px;
+		width: 100%;
+		overflow: hidden;
+	}
+	.head_inner{
+		width: 800px;
+		height: 60px;
+		margin: 35px auto;
+	}
+	.head_inner h1{
+		float: left;
+		height: 24px;
+		margin-top: 18px;
+	}
+	.head_inner h1 a{
+		display: block;
+		color: #333;
+		font-size: 24px;
+	}
+	.head_inner ul{
+		float: left;
+		margin: 20px 0 0 20px;
+	}
+	.head_inner li{
+		float: left;
+		color: #696969;
+		padding: 4px 16px;
+		cursor: pointer;
+	}
+	.head_inner li:hover{
+		background: #f5f5f5;
+		color: #454545;
+	}
+	.search_box{
+		float: right;
+		width: 180px;
+		height: 60px;
+		position: relative;
+	}
+	.search_box i{
+		display: inline-block;
+		position: absolute;
+		top:20px;
+		left:2px;
+		width: 20px;
+		height: 20px;
+		background-image: url(img/search.png);
+	}
+	.search_box input{
+		font-size: 14px;
+		padding: 4px 6px 4px 26px;
+		border-style: none;
+		border-bottom: 1px solid #c7c7c7;
+		margin-top: 20px;
+		outline: none;
+		background-color: transparent;
+	}
+
+	</style>
+</head>
+<body>
+	<header id="header">
+		<div class="head_inner">
+			<h1><a href="#">Abbey的博客</a></h1>
+			<ul>
+				<li>首页</li>
+				<li>CSS</li>
+				<li>JS</li>
+				<li>design</li>
+				<li>my life</li>
+				<li>It's me!</li>
+			</ul>
+			<div class="search_box">
+				<i></i>
+				<input type="search" class="search">
+			</div>
+		</div>
+		
+		
+	</header>
+	<section></section>
+	<aside></aside>
+	<fooder></fooder>
+</body>
+</html>
